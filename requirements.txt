@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-certifi==2021.10.8
+certifi==2024.7.4
     # via requests
 charset-normalizer==2.0.12
     # via requests
@@ -16,17 +16,17 @@ colorama==0.4.4
     #   log-symbols
 cycler==0.11.0
     # via matplotlib
-fonttools==4.31.1
+fonttools==4.60.2
     # via matplotlib
 halo==0.0.31
     # via -r requirements.in
-idna==3.3
+idna==3.15
     # via requests
-joblib==1.1.0
+joblib==1.2.0
     # via scikit-learn
 kiwisolver==1.4.0
     # via matplotlib
-lightgbm==3.3.2
+lightgbm==4.6.0
     # via -r requirements.in
 log-symbols==0.0.14
     # via halo
@@ -49,9 +49,9 @@ pandas==1.4.1
     # via
     #   -r requirements.in
     #   numerapi
-pillow==9.0.1
+pillow==12.3.0
     # via matplotlib
-pyarrow==7.0.0
+pyarrow==14.0.1
     # via -r requirements.in
 pyparsing==3.0.7
     # via
@@ -66,14 +66,12 @@ pytz==2022.1
     # via
     #   numerapi
     #   pandas
-requests==2.27.1
+requests==2.33.0
     # via
     #   -r requirements.in
     #   numerapi
-scikit-learn==1.0.2
-    # via
-    #   -r requirements.in
-    #   lightgbm
+scikit-learn==1.5.0
+    # via -r requirements.in
 scipy==1.8.0
     # via
     #   -r requirements.in
@@ -92,9 +90,9 @@ termcolor==1.1.0
     # via halo
 threadpoolctl==3.1.0
     # via scikit-learn
-tqdm==4.63.0
-    # via numerapi
-urllib3==1.26.9
+tqdm==4.66.3
+    # via
+    #   -r requirements.in
+    #   numerapi
+urllib3==2.8.0
     # via requests
-wheel==0.37.1
-    # via lightgbm
